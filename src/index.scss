@@ -75,3 +75,24 @@ body{
         border-radius: 5px;
     }
 }
+
+.cart{
+    .cartCard{
+        width: full;
+        height: 20vh;
+        border:1px solid gray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2px 20px;
+        margin: 10px 2px;
+        >img{
+             height: 20vh;
+             width: auto;
+        }
+        >.btn{
+                   background: #ee5253;
+
+        }
+    }
+}
